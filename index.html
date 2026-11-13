@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Sushi restaurant with fresh ingredients and artisanal preparation. Authentic flavors, quality service, and a unique Japanese dining experience." />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Sushi Restaurant | Authentic Japanese Flavors</title>
+  </head>
+  <body>
+    <!--==================== HEADER & NAV ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Sushi</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#about" class="nav__link">About Us</a></li>
+            <li><a href="#menu" class="nav__link">Menu</a></li>
+            <li><a href="#new" class="nav__link">Special</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close"><i class="ri-close-large-line"></i></div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle"><i class="ri-apps-2-line"></i></div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME SECTION ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">Enjoy Delicious <br> The <span>Japanese Foods</span></h1>
+            <p class="home__description">
+              We serve the finest Japanese cuisine. Prepared with carefully selected natural
+              ingredients by a professional chef, guaranteeing a high-quality flavor. We hope you
+              enjoy your meal.
+            </p>
+            <a href="#contact" class="button">Order Now</a>
+          </div>
+
+          <div class="home__images">
+            <div class="home__shape"></div>
+            <img src="assets/img/home-img-1.png" alt="Sushi tray" class="home__img home__img-1" />
+            <img src="assets/img/home-img-2.png" alt="Sashimi plate" class="home__img home__img-2" />
+            <img src="assets/img/home-img-3.png" alt="Soy sauce" class="home__img home__img-3" />
+            <img src="assets/img/home-img-4.png" alt="Miso soup" class="home__img home__img-4" />
+            <img src="assets/img/home-img-5.png" alt="Wasabi" class="home__img home__img-5" />
+            <img src="assets/img/home-img-6.png" alt="Chopsticks" class="home__img home__img-6" />
+          </div>
+
+          <img src="assets/img/flower-japan.svg" alt="" class="home__flower home__flower-1" />
+          <img src="assets/img/flower-japan.svg" alt="" class="home__flower home__flower-2" />
+          <img src="assets/img/flower-japan.svg" alt="" class="home__flower home__flower-3" />
+          <img src="assets/img/flower-japan.svg" alt="" class="home__flower home__flower-4" />
+          <img src="assets/img/leaf-1.svg" alt="" class="home__leaf home__leaf-1" />
+          <img src="assets/img/leaf-2.svg" alt="" class="home__leaf home__leaf-2" />
+          <img src="assets/img/leaf-3.svg" alt="" class="home__leaf home__leaf-3" />
+
+          <h2 class="home__text">美 <br> 味</h2>
+        </div>
+      </section>
+
+      <!--==================== ABOUT SECTION ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__images">
+            <div class="about__shape"></div>
+            <img src="assets/img/about-img.png" alt="Ramen bowl" class="about__img" />
+          </div>
+
+          <div class="about__data">
+            <img src="assets/img/flower-japan.svg" alt="" class="about__flower" />
+            <span class="section__subtitle">About Us / 私たちについて</span>
+            <h2 class="section__title">We Serve You The <br> Authentic <span>Japanese Flavor</span></h2>
+            <p class="about__description">
+              We have been operating for ten years to continue serving Japanese food, with authentic
+              flavors that we will continue to naturalize for you.
+            </p>
+            <a href="#new" class="button">Special Menu</a>
+          </div>
+
+          <h2 class="about__text">日本</h2>
+        </div>
+      </section>
+
+      <!--==================== MENU SECTION ====================-->
+      <section class="menu section" id="menu">
+        <h2 class="section__title">Our Menu</h2>
+
+        <div class="menu__container container">
+          <h3 class="menu__text-1">寿 <br> 司</h3>
+          <h3 class="menu__text-2">拉 <br> 麺</h3>
+
+          <div class="menu__buttons">
+            <button class="menu__button active-menu" data-target="#menu-1">
+              <img src="assets/img/menu-btn-1.png" alt="" class="menu__button-img" />
+              Sushi
+            </button>
+            <button class="menu__button" data-target="#menu-2">
+              <img src="assets/img/menu-btn-2.png" alt="" class="menu__button-img" />
+              Nigiri
+            </button>
+            <button class="menu__button" data-target="#menu-3">
+              <img src="assets/img/menu-btn-3.png" alt="" class="menu__button-img" />
+              Ramen
+            </button>
+            <button class="menu__button" data-target="#menu-4">
+              <img src="assets/img/menu-btn-4.png" alt="" class="menu__button-img" />
+              Udon
+            </button>
+            <button class="menu__button" data-target="#menu-5">
+              <img src="assets/img/menu-btn-5.png" alt="" class="menu__button-img" />
+              Others
+            </button>
+          </div>
+
+          <div class="menu__content show-content" id="menu-1">
+            <div class="menu__grid grid">
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-shusi-1.png" alt="Maki" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Maki</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-shusi-2.png" alt="Maki Salmon" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Maki Salmon</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-shusi-3.png" alt="Ikura" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Ikura</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu__content" id="menu-2">
+            <div class="menu__grid grid">
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-nigiri-1.png" alt="Tako Nigiri" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Tako Nigiri</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-nigiri-2.png" alt="Amaebi Nigiri" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Amaebi Nigiri</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-nigiri-3.png" alt="Sake Nigiri" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Sake Nigiri</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu__content" id="menu-3">
+            <div class="menu__grid grid">
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-ramen-1.png" alt="Soja Ramen" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Soja Ramen</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-ramen-2.png" alt="Tonkotsu Ramen" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Tonkotsu Ramen</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-ramen-3.png" alt="Shoyu Ramen" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Shoyu Ramen</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu__content" id="menu-4">
+            <div class="menu__grid grid">
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-udon-1.png" alt="Nabemono Udon" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Nabemono Udon</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-udon-2.png" alt="Yaki Udon" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Yaki Udon</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-udon-3.png" alt="kitsune Udon" class="menu__img" />
+                </div>
+                <h3 class="menu__name">kitsune Udon</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="menu__content" id="menu-5">
+            <div class="menu__grid grid">
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-other-1.png" alt="Dumpling" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Dumpling</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-other-2.png" alt="Onigiri" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Onigiri</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+
+              <article class="menu__card">
+                <div class="menu__images">
+                  <img src="assets/img/menu-other-3.png" alt="Sukiyaki" class="menu__img" />
+                </div>
+                <h3 class="menu__name">Sukiyaki</h3>
+                <div class="menu__info">
+                  <span class="menu__price">$8.99</span>
+                  <span class="menu__stock">10 available</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEW SECTION ====================-->
+      <section class="new section" id="new">
+        <div class="new__container container grid">
+          <div class="new__data">
+            <img src="assets/img/flower-japan.svg" alt="" class="new__flower new__flower-1" />
+            <span class="section__subtitle">Newly Added / 新しく追加された</span>
+            <h2 class="section__title">Our Special Dish <br> <span>Sashimi Oishi</span></h2>
+            <p class="new__description">
+              We serve the best and freshest seafood eaten raw with soy sauce, grated ginger and
+              wasabi, combining the authentic flavor of the Japanese for your palate.
+            </p>
+          </div>
+
+          <div class="new__images">
+            <div class="new__shape"></div>
+            <img src="assets/img/new-img-1.png" alt="Sashimi plate" class="new__img new__img-1" />
+            <img src="assets/img/new-img-2.png" alt="Nigiri plate" class="new__img new__img-2" />
+            <img src="assets/img/new-img-3.png" alt="Soy sauce" class="new__img new__img-3" />
+            <img src="assets/img/new-img-4.png" alt="Wasabi" class="new__img new__img-4" />
+            <img src="assets/img/new-img-5.png" alt="Chopsticks" class="new__img new__img-5" />
+          </div>
+
+          <img src="assets/img/flower-japan.svg" alt="" class="new__flower new__flower-2" />
+          <img src="assets/img/flower-japan.svg" alt="" class="new__flower new__flower-3" />
+          <img src="assets/img/leaf-1.svg" alt="" class="new__leaf new__leaf-1" />
+          <img src="assets/img/leaf-2.svg" alt="" class="new__leaf new__leaf-2" />
+
+          <h2 class="new__text-1">日本</h2>
+          <h2 class="new__text-2">刺身料理</h2>
+        </div>
+      </section>
+
+      <!--==================== CONTACT SECTION ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container">
+          <h2 class="section__title">Contact Us And Order <br> The Best Sushi</h2>
+
+          <div class="contact__data grid">
+            <div class="contact__content">
+              <h3 class="contact__title">Messages:</h3>
+              <div class="contact__social">
+                <a href=""><i class="ri-messenger-line"></i></a>
+                <a href="" target="_blank" rel="noopener"><i class="ri-whatsapp-line"></i></a>
+                <a href=""><i class="ri-mail-line"></i></a>
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <h3 class="contact__title">Location:</h3>
+              <address class="contact__address">Lima - Peru <br> Av. The Trees #0123</address>
+            </div>
+
+            <div class="contact__content">
+              <h3 class="contact__title">Phone:</h3>
+              <address class="contact__address">+0123(00)-765-4321 <br> +00-0123456</address>
+            </div>
+
+            <div class="contact__content">
+              <h3 class="contact__title">Attention:</h3>
+              <address class="contact__address">Monday - Friday <br> 8am - 6pm</address>
+            </div>
+          </div>
+
+          <div class="contact__newsletter">
+            <p class="contact__description">Subscribe to the newsletter</p>
+            <form action="" class="contact__form">
+              <input type="email" placeholder="Enter your email address" class="contact__input" required />
+              <button type="submit" class="contact__button">Subscribe</button>
+            </form>
+          </div>
+
+          <h3 class="contact__text-1">日 <br> 本</h3>
+          <h3 class="contact__text-2">接 <br> 触</h3>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <a href="#" class="footer__logo">Sushi</a>
+
+        <div class="footer__social">
+          <a href="" i class="ri-facebook-circle-line"></i></a>
+          <a href="" ><i class="ri-instagram-line"></i></a>
+          <a href="" ><i class="ri-twitter-x-line"></i></a>
+        </div>
+
+        <span class="footer__copy">&#169; All Rights Reserved By code.den</span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up"><i class="ri-arrow-up-line"></i></a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
